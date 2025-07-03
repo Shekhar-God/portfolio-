@@ -474,11 +474,11 @@ body {
     width: 0;
 }
 
-.skill-bar[data-level="90"] { 
+.skill-bar[data-level="100"] { 
     animation-name: fillBar90;
 }
 
-.skill-bar[data-level="85"] { 
+.skill-bar[data-level="90"] { 
     animation-name: fillBar85;
 }
 
@@ -498,14 +498,14 @@ body {
     animation-name: fillBar65;
 }
 
-@keyframes fillBar90 {
+@keyframes fillBar100 {
     from { width: 0; }
-    to { width: 90%; }
+    to { width: 100%; }
 }
 
 @keyframes fillBar85 {
     from { width: 0; }
-    to { width: 85%; }
+    to { width: 90%; }
 }
 
 @keyframes fillBar80 {
@@ -990,7 +990,7 @@ body {
     }
     
     .nav-container {
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
     }
     
